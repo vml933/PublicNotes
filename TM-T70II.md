@@ -7,7 +7,7 @@
 
 ---
 
-## The detection event
+## Event
 
 | Mechanism | Handler method | Fires when | What to inspect |
 |---|---|---|---|
@@ -17,7 +17,7 @@ The event must be wired up first: `AddStatusUpdateEvent(m_Printer)`.
 
 ---
 
-## Status conditions → `OnStatusUpdateEvent` switch on `e.Status`
+## Sample Code
 
 **File:** `CSharp/Printer/PrinterSample_Step11/FrameStep11.cs` — method `OnStatusUpdateEvent` at **line 1504**, switch block **lines 1514–1533**.
 
